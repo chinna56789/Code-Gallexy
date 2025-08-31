@@ -1,0 +1,144 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: url('https://mrb-guss.com/wp-content/uploads/2022/03/Quiz-Time.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+header
+{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	padding:20px 100px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	z-index:99;
+} 
+.logo
+{
+	font-size: 2em;
+	color: #fff;
+	user-select: none;
+}
+
+
+.navigation .btnadmin-popup
+{
+	width: 130px;
+	height: 50px;
+	background: transparent;
+	border: 1px solid #fff;
+	outline: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: 500;
+	margin-left: 40px;
+	transition: .5s;
+}
+
+.navigation a
+{
+	position: relative;
+	font-size: 1.1em;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 30px;
+}
+.navigation a::after
+{
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	border-radius: 5px;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: transform .3s;
+}
+.navigation a:hover::after
+{
+	transform-origin: left;
+	transform: scaleX(0);
+}
+.navigation .btnadmin-popup
+{
+	width: 130px;
+	height: 50px;
+	background: transparent;
+	border: 1px solid #fff;
+	outline: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: 500;
+	margin-left: 40px;
+	transition: .5s;
+}
+.navigation .btnadmin-popup:hover
+{
+	background: #fff;
+	color: #162938;
+}
+.navigation .btnLogin-popup
+{
+	width: 130px;
+	height: 50px;
+	background: transparent;
+	border: 2px solid #fff;
+	outline: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: 500;
+	margin-left: 40px;
+	transition: .5s;
+}
+.navigation .btnLogin-popup:hover
+{
+	background: #fff;
+	color: #162938;
+}
+
+.content {
+  width:60%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 330px;
+  height: 150px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
